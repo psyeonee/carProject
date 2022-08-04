@@ -21,6 +21,8 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+<<<<<<< HEAD
+=======
 	<!-- 다중업로드 API설정 -->
 	<beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		 <!-- 업로드 가능한 최대파일크기 -->
@@ -33,6 +35,7 @@
 
 
 	
+>>>>>>> branch 'dev' of https://github.com/sinny13/ProjectCars.git
 	<context:component-scan base-package="kr.mr.myapp" />
 	
 	
